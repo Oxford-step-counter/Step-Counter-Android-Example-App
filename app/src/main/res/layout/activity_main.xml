@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jamie.a4yp.androidsctest.MainActivity">
+
+    <Button
+        android:id="@+id/btn_toggleStepCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Step Counting"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:id="@+id/tv_stepCounter"
+        android:layout_width="108dp"
+        android:layout_height="18dp"
+        android:text="Steps: 0"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+</LinearLayout>
