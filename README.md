@@ -13,7 +13,8 @@ It also connects to the Arduino-based ground truth device explained here and dum
 Import the project as a gradle project in Android Studio.
 The step counter algorithm is implemented in a separate module.
 
-MIT LICENSE:
+
+## License: MIT
 
 Copyright (c) University of Oxford
 
