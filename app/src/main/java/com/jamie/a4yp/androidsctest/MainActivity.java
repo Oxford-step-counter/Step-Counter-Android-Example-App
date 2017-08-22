@@ -10,7 +10,8 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.jamie.fourthYearProject.stepCounterModule.StepCounter;
+import uk.ac.ox.eng.stepcounter.StepCounter;
+
 
 public class MainActivity extends AppCompatActivity implements StepCounter.OnStepUpdateListener, StepCounter.OnFinishedProcessingListener {
 
