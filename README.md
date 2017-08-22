@@ -8,6 +8,11 @@ The app runs the algorithm and shows the results.
 It also connects to the Arduino-based ground truth device explained here and dumps all the data on a CSV file.
 
 
+## Compile
+
+Import the project as a gradle project in Android Studio.
+The step counter algorithm is implemented in a separate module.
+
 MIT LICENSE:
 
 Copyright (c) University of Oxford

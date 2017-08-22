@@ -12,7 +12,7 @@ public class StepCounter {
 
 
     /**
-     * This is the interface for getting updates when we get a step occuring. Simple listener/broadcaster pattern.
+     * This is the interface for getting updates when we get a step occurring. Simple listener/broadcaster pattern.
      */
     public interface OnStepUpdateListener {
 
