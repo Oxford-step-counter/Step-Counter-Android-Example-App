@@ -52,13 +52,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Log csv file"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="35dp"/>
 
     <Switch
         android:id="@+id/gtdeviceSwitch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Connect GT device"
-        android:layout_marginTop="10dp"/>
+        android:layout_marginTop="20dp"/>
 
 </LinearLayout>

@@ -192,7 +192,7 @@ public class MainActivity extends AppCompatActivity {
                 stepCounter.stop();
 
                 try {
-                    logwriter.close();
+                    if(logwriter != null) logwriter.close();
                 } catch (IOException e) {
                 }
             } else {
@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
                 int periodusecs = (int) (1E6 / SAMPLING_FREQUENCY);
                 Log.d(MainActivity.class.getSimpleName(), "Sampling at " + periodusecs + " usec");
                 sensorManager.registerListener(accelerometerEventListener, accelerometer, periodusecs);
-                if(hwstepsCounter != null) sensorManager.registerListener(hwStepsEventListener, hwstepsCounter, SensorManager.SENSOR_DELAY_FASTEST);
+                if(hwstepsCounter != null) sensorManager.registerListener(hwStepsEventListener, hwstepsCounter, SensorManager.SENSOR_DELAY_NORMAL);
             }
         }
     };
