@@ -11,7 +11,15 @@ It also connects to the Arduino-based ground truth device explained here and dum
 ## Compile
 
 Import the project as a gradle project in Android Studio.
-The step counter algorithm is implemented in a separate module.
+The step counter algorithm is implemented in a separate module but comes with this source code.
+
+## Log files
+
+The app can log all the data on a file on the external memory (the SD card).
+Each file will have the timestamp of when the test started within the name.
+The columns are the following:
+
+    timestamp (microsencods since boot), accx, accy, accz, steps as detected by algo, steps as detected by ground truth device, steps as detected by the hardware step counter
 
 
 ## License: MIT
