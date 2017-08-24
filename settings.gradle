@@ -1,1 +1,1 @@
-include ':app', ':stepcounter'
+include ':app'
