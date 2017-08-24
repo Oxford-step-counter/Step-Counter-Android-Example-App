@@ -11,7 +11,7 @@ It also connects to the Arduino-based ground truth device explained here and dum
 ## Compile
 
 Import the project as a gradle project in Android Studio.
-The step counter algorithm is implemented in a separate module but comes with this source code.
+The step counter algorithm is imported directly from its Github repository.
 
 ## Log files
 
