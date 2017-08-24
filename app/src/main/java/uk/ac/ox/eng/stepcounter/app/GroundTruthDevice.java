@@ -1,4 +1,4 @@
-package com.jamie.a4yp.androidsctest;
+package uk.ac.ox.eng.stepcounter.app;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
